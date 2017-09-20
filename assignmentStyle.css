@@ -1,10 +1,9 @@
 body {
     background-color: #e2f0ed;
-    display: block;
     width: 100%;
 }
 
-div{
+.fulldiv{
     width: 100%;
 }
 
@@ -47,4 +46,26 @@ button{
     color: #0b2732;
     display: block;
     width: 100%;
+}
+
+@media only screen and (orientaiton: profile){
+
+.hideMeSmall{
+    display: none;
+}
+}
+
+@media only screen and (orientation: landscape){
+
+.miniElementBorder{
+    border-color: color: #0b2732;
+    border: 1px;
+}
+
+.shrinkOnLarge{
+    width: 65%;
+    position: fixed;
+    right: 0%
+}
+
 }
